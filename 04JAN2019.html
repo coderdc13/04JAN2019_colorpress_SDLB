@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="xyz" onmousedown="mouseDown()" onmouseup="mouseUp()">
+        Change the text color by holding down the mouse...
+        </p>
+        <script>
+        function mouseDown() {
+            document.getElementById("xyz").style.color = "red";
+        };
+        function mouseUp() {
+            document.getElementById("xyz").style.color = "gold";
+        };
+        </script>
+    </body>
+</html>
